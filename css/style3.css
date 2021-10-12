@@ -1,0 +1,63 @@
+body{
+    background-image: url(../img/background3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.next button{
+    background-color: crimson;
+    color: rgb(97, 230, 163);
+    padding: 10px;
+    -webkit-text-stroke: 0.3px black;
+    border-radius: 8px;
+}
+.next button:hover{
+    opacity: 0.9;
+}
+.back button{
+    background-color: crimson;
+    color: rgb(97, 230, 163);
+    padding: 10px;
+    -webkit-text-stroke: 0.3px black;
+    border-radius: 8px;
+}
+.back button:hover{
+    opacity: 0.9;
+}
+.container{
+display: flex;
+justify-content: space-around;
+}
+h2{
+background-color: rgb(145, 0, 0);
+border-style: groove;
+border-color: white;
+border-radius: 8px;
+font-weight: 900;
+padding: 10px;
+text-align: center;
+font-family: 'Ephesis', cursive;
+font-size: 25px;
+}
+.imagen img {
+    width: 400px;
+    height: 400px;
+    border-style: groove;
+    border-color: white;
+    border-radius: 8px;
+}
+.card {
+    padding: 20px;
+    background-color: rgb(172, 8, 8);
+    border-style: groove;
+    border-color: white;
+    border-radius: 8px;
+    font-family: 'Ephesis', cursive;
+    font-weight: 700;
+    font-size: 25px;
+    height: 200px;
+}

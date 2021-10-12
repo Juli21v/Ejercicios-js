@@ -1,0 +1,39 @@
+body{
+    background-image: url(../img/background6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.next button{
+    background-color: crimson;
+    color: rgb(97, 230, 163);
+    padding: 10px;
+    -webkit-text-stroke: 0.3px black;
+    border-radius: 8px;
+}
+.next button:hover{
+    opacity: 0.9;
+}
+.back button{
+    background-color: crimson;
+    color: rgb(97, 230, 163);
+    padding: 10px;
+    -webkit-text-stroke: 0.3px black;
+    border-radius: 8px;
+}
+.back button:hover{
+    opacity: 0.9;
+}
+.row{
+    margin-bottom: 50px;
+    padding-left: 70px;
+    width: 100%;
+}
+img{
+    width: 280px;
+    height: 280px;
+}

@@ -1,0 +1,42 @@
+body{
+    background-image: url(../img/background7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.next button{
+    background-color: crimson;
+    color: rgb(97, 230, 163);
+    padding: 10px;
+    -webkit-text-stroke: 0.3px black;
+    border-radius: 8px;
+}
+.next button:hover{
+    opacity: 0.9;
+}
+.back button{
+    background-color: crimson;
+    color: rgb(97, 230, 163);
+    padding: 10px;
+    -webkit-text-stroke: 0.3px black;
+    border-radius: 8px;
+}
+.back button:hover{
+    opacity: 0.9;
+}
+.texto{
+    text-align: center;
+    color: crimson;
+    background-color: cyan;
+    border-style: groove;
+    border-color: darkgray;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 20px;
+    -webkit-text-stroke: 0.3px black;
+}
